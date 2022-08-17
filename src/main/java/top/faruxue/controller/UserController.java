@@ -31,6 +31,7 @@ public class UserController {
 //            throw new RuntimeException();
 //        }
 //        int length = product.getProductDescription().length();
+//        test
         if (product.getProductDescription() == null) {
             throw new ApiException(AppCode.APP_ERROR, "商品描述为空");
         }
